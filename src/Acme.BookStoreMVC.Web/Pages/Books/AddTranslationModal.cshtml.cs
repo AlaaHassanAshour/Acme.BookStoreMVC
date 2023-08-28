@@ -34,7 +34,6 @@ namespace Acme.BookStoreMVC.Web.Pages.Books
             _bookAppService = bookAppService;
             _languageProvider = languageProvider;
         }
-
         public async Task OnGetAsync()
         {
             Languages = await GetLanguagesSelectItem();

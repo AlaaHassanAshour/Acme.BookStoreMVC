@@ -20,21 +20,21 @@
                             [
                                 {
                                     text: l('Edit'),
-                                    visible: abp.auth.isGranted('BookStoreMVC.Books.Edit'),
+                                    //visible: abp.auth.isGranted('BookStoreMVC.Books.Edit'),
                                     action: function (data) {
                                         editModal.open({ id: data.record.id });
                                     }
                                 },
                                 {
                                     text: l('Add Translation'), // added this action
-                                    visible: abp.auth.isGranted('BookStoreMVC.Books.Edit'),
+                                    //visible: abp.auth.isGranted('BookStoreMVC.Books.Edit'),
                                     action: function (data) {
                                         addTranslationModal.open({ id: data.record.id });
                                     }
                                 },
                                 {
                                     text: l('Delete'),
-                                    visible: abp.auth.isGranted('BookStoreMVC.Books.Delete'),
+                                    //visible: abp.auth.isGranted('BookStoreMVC.Books.Delete'),
                                     confirmMessage: function (data) {
                                         return l(
                                             'BookDeletionConfirmationMessage',

@@ -24,8 +24,8 @@
 //        });
 //    });
 //});
-acme.BookStoreMVC.books.book.getList({}).done(function (result) { console.log(result); });
-acme.BookStoreMVC.authors.author.getList({}).done(function (result) { console.log(result); });
+//acme.BookStoreMVC.books.book.getList({}).done(function (result) { console.log(result); });
+//acme.BookStoreMVC.authors.author.getList({}).done(function (result) { console.log(result); });
 //acme.BookStoreMVC.authors.author.getList({}).done(function (result) { console.log(result); });
 
 //acme.BookStoreMVC.books.book.create({

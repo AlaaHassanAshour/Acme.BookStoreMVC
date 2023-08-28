@@ -64,7 +64,7 @@ public class BookAppService :
     }
 
     public override async Task<PagedResultDto<BookDto>> GetListAsync(PagedAndSortedResultRequestDto input)
-    {
+   {
         //Get the IQueryable<Book> from the repository
         var queryable = await Repository.WithDetailsAsync();
 
